@@ -6,7 +6,11 @@
       dark
     >
 
-      <v-toolbar-title>महात्मा गांधी गुरुदत्त स्मारक इंटर कॉलेज, विजयगढ़</v-toolbar-title>
+      <v-toolbar-title>
+        <n-link to="/" text>
+          महात्मा गांधी गुरुदत्त स्मारक इंटर कॉलेज, विजयगढ़
+        </n-link>
+      </v-toolbar-title>
 
       <v-spacer></v-spacer>
 

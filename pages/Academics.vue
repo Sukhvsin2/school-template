@@ -4,7 +4,7 @@
 
         <v-container>
             <h4 class="my-3">हाईस्कूल स्तर </h4>
-            <div>
+            <v-card class="pa-2">
                 <ol>
                     <li>हिन्दी</li>
                     <li>अंग्रेजी</li>
@@ -15,12 +15,12 @@
                     <li>गृह विज्ञान</li>
                     <li>संस्कृत</li>
                 </ol>
-            </div>
+            </v-card>
 
             <h4 class="my-3">इण्टर स्तर</h4>
             <v-row>
                 <v-col>
-                    <div class="ml-3">
+                    <v-card class="ml-3 pa-2">
                         <h5>कला वर्ग</h5>
                         
                         <div>
@@ -34,10 +34,10 @@
                                 <li>ना॰ शास्त्र</li>
                             </ol>
                         </div>
-                    </div>
+                    </v-card>
                 </v-col>
                 <v-col>
-                    <div class="ml-3">
+                    <v-card class="ml-3 pa-2">
                     <h5>विज्ञान वर्ग</h5>
                     
                     <div>
@@ -49,7 +49,7 @@
                                 <li>गणित</li>
                             </ol>
                     </div>
-                </div>
+                </v-card>
             </v-col>
             </v-row>
         </v-container>

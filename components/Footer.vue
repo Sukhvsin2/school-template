@@ -11,8 +11,6 @@
             >
 
             <v-row class="my-3">
-                <v-col cols="12" lg="4">Tab1</v-col>
-                <v-col cols="12" lg="4">Tab2</v-col>
                 <v-col cols="12" lg="4">
                     <div class="head">Contact Us</div>
                     <div class="data">
@@ -22,6 +20,8 @@
                         <div>Address: MGGS Inter college, Vijaygarh, Aligarh 202170</div>
                     </div>
                 </v-col>
+                <v-col cols="12" lg="4"></v-col>
+                <v-col cols="12" lg="4"></v-col>
             </v-row>
 
             <v-divider></v-divider>
