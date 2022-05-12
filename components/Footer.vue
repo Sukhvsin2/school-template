@@ -15,8 +15,6 @@
                     <div class="head">Contact Us</div>
                     <div class="data">
                         <div>Email ID: mggsintercollege@gmail.com</div>
-                        <div>Phone Number: +91xxxxxxxxxx
-                        </div>
                         <div>Address: MGGS Inter college, Vijaygarh, Aligarh 202170</div>
                     </div>
                 </v-col>
