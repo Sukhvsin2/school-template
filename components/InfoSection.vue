@@ -12,15 +12,10 @@
                     >
                         <v-card-text>
                         <p class="text-h4 text--primary">
-                            संस्थापक
+                            महात्मा गांधी गुरुदत्त स्मारक इंटर कॉलेज, विजयगढ़
                         </p>
                         <div class="text--primary">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            विद्यालय की स्थापना का वर्ष - 1948
                         </div>
                         </v-card-text>
                         <v-card-actions>

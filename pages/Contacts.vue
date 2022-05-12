@@ -48,7 +48,8 @@
             </v-form>
           </v-col>
           <v-col cols="12" lg="3">
-              <div>Office Address</div>
+              <h2>Office Address</h2>
+              <div>Address: MGGS Inter college, Vijaygarh, Aligarh 202170</div>
           </v-col>
       </v-row>
   </v-container>
