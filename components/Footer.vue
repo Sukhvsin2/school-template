@@ -1,33 +1,45 @@
 <template>
   <v-footer
-    dark
     padless
+    class="px-0 py-0"
   >
-    <v-card
-      flat
-      tile
-      class="indigo lighten-1 white--text text-center"
-    >
-      <v-card-text>
-        <v-btn
-          class="mx-4 white--text"
-          icon
-        >
-          <v-icon size="24px">
-            <!-- {{ icon }} -->
-          </v-icon>
-        </v-btn>
-      </v-card-text>
+    <v-container fluid class="px-0 py-0">
+        <v-card
+            flat
+            tile
+            class="orange lighten-1 white--text text-center"
+            >
 
-      <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </v-card-text>
+            <v-row class="my-3">
+                <v-col cols="12" lg="4">Tab1</v-col>
+                <v-col cols="12" lg="4">Tab2</v-col>
+                <v-col cols="12" lg="4">
+                    <div class="head">Contact Us</div>
+                    <div class="data">
+                        <div>Email ID: mggsintercollege@gmail.com</div>
+                        <div>Phone Number: +91xxxxxxxxxx
+                        </div>
+                        <div>Address: MGGS Inter college, Vijaygarh, Aligarh 202170</div>
+                    </div>
+                </v-col>
+            </v-row>
 
-      <v-divider></v-divider>
+            <v-divider></v-divider>
 
-      <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-      </v-card-text>
-    </v-card>
+            <v-card-text class="white--text">
+                &copy {{ new Date().getFullYear() }}  Copyright — महात्मा गांधी गुरुदत्त स्मारक इंटर कॉलेज, विजयगढ़
+            </v-card-text>
+            </v-card>
+    </v-container>
   </v-footer>
 </template>
+
+<style scoped>
+.head{
+    font-size: 1.5em;
+}
+
+.head .data{
+    font-size: 0.8em;
+}
+</style>
