@@ -1,5 +1,11 @@
 <template>
   <v-container>
+        <!-- <v-container> -->
+
+        <h2>शिक्षक गण</h2>
+            <v-img class="ma-auto" alt="academics" src="images/academics.jpg" max-height="500px" max-width="500px" contain>
+            </v-img>
+        <!-- </v-container> -->
         <h2>मान्यता के विषय</h2>
 
         <v-container>
