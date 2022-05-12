@@ -38,6 +38,9 @@
           {
             src: 'images/show5.png',
           },
+          {
+            src: 'images/show6.png',
+          },
         ],
       }
     },
